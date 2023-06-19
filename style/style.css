@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/background.jpg);
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.section-header .header-navigation{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 63px;
+}
+.section-header .container .header-menu .header-navigation .logo a{
+    font-family: "Cormorant Infant";
+    color: #756b62;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+.section-header .header-menu{
+    display: flex;
+    justify-content: center
+}
+.section-header .container .header-menu .header-navigation .item a{
+    font-family: "Montserrat";
+    color: #988f87;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section-header .container .header-menu .header-navigation .one{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 200px;
+}
+.section-header .container .header-menu .header-navigation .two{
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    margin-left: 200px;
+}
+.header-info :nth-child(3){
+    margin-left: 120px;
+    margin-top: 150px;
+}
+.header-info :nth-child(1){
+    position: relative;
+    top: -550px;
+    left: 190px;
+}
+.header-info :nth-child(2){
+    position: relative;
+    left: 20px;
+}
